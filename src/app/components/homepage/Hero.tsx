@@ -22,13 +22,13 @@ const Hero = () => {
         <div className="absolute inset-0 bg-black/50"></div>
 
         {/* Background decoration */}
-        <div className="absolute inset-0 overflow-hidden z-50">
+        <div className="absolute inset-0 overflow-hidden">
             <div className="absolute top-1/4 -right-20 w-96 h-96 bg-golden-accent/5 rounded-full blur-3xl"></div>
             <div className="absolute bottom-1/4 -left-20 w-96 h-96 bg-golden-primary/5 rounded-full blur-3xl"></div>
             <Waves className="absolute top-10 right-10 w-20 h-20 text-golden-primary/10 animate-float" />
-        </div>
+        </div> 
 
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 z-10">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 z-20">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
                 {/* Content */}
                 <div className="space-y-8 animate-fade-in">

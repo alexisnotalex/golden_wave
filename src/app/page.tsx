@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/core/Navbar';
 import Hero from './components/homepage/Hero';
+import WhoWeAre from './components/homepage/WhoWeAre';
 import About from './components/homepage/About';
 import Services from './components/homepage/Services';
 import Partners from './components/homepage/Partners';
@@ -11,6 +12,7 @@ function App() {
     <div className="min-h-screen bg-golden-light">
       <Navbar />
       <Hero />
+      <WhoWeAre />
       <About />
       <Services />
       <Partners />
